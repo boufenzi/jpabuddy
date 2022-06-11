@@ -37,6 +37,8 @@ public class Car {
     @ToString.Exclude
     private Set<Brand> brands = new LinkedHashSet<>();
 
+    // test
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
